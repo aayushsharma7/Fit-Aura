@@ -22,17 +22,17 @@ const Navbar = () => {
         <Image src={assets.logo} alt="" className='w-28 cursor-pointer mr-14'/>
         </a>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50#  '>
-            <li><a className='font-ovo ' href="#top">Home</a></li>
-            <li><a className='font-ovo' href='#exercises'>Exercises</a></li>
-            <li><a className='font-ovo' href='#calories'>Calories</a></li>
-            <li><a className='font-ovo' href='#nutrition'>Nutrition</a></li>
-            <li><a className='font-ovo' href='#contact'>Contact</a></li>
+            <li><a className='font-ovo hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-2xs' href="#top" >Home</a></li>
+            <li><a className='font-ovo hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-2xs' href='#exercises'>Exercises</a></li>
+            <li><a className='font-ovo hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-2xs' href='#calories'>Calories</a></li>
+            <li><a className='font-ovo hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-2xs' href='#nutrition'>Nutrition</a></li>
+            <li><a className='font-ovo hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-2xs' href='#contact'>Contact</a></li>
         </ul>
         <div className='flex items-center gap-4'>
           <button>
             <Image src={assets.moon_icon} className='w-6' alt=''/>
           </button>
-            <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py=2.5 border border-gray-500 rounded-full ml-4 font-ovo'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
+            <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py=2.5 border border-gray-500 rounded-full ml-4 font-ovo hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-md'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
           <button className='block md:hidden ml-3 cursor-pointer ' onClick={openMenu}>
             <Image src={assets.menu_black} className='w-6 ' alt=''/>  
           </button>
