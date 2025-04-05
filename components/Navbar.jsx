@@ -13,10 +13,10 @@ const Navbar = () => {
             <li><a href='#exercises'>Exercises</a></li>
             <li><a href='#calories'>Calories</a></li>
             <li><a href='#nutrition'>Nutrition</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='#contact'>Contact</a></li> 
         </ul>
         <div>
-            <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py=2.5 border border-gray-500 rounded-full ml-4'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
+            <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py=2.5 border border-gray-500 rounded-full ml-4 font-ovo'>Contact <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
         </div>
     </nav>
   )
