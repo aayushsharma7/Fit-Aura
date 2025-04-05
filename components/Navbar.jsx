@@ -10,9 +10,9 @@ const Navbar = () => {
         </a>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 '>
             <li><a href="#top">Home</a></li>
-            <li><a href='#about'>Exercises</a></li>
-            <li><a href='#services'>Calories</a></li>
-            <li><a href='#work'>Nutrition</a></li>
+            <li><a href='#exercises'>Exercises</a></li>
+            <li><a href='#calories'>Calories</a></li>
+            <li><a href='#nutrition'>Nutrition</a></li>
             <li><a href='#contact'>Contact</a></li>
         </ul>
         <div>
