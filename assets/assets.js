@@ -35,6 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import shoulder_1 from './shoulder-1.png';
+import core_1 from './core-1.png';
 
 export const assets = {
     user_image,
@@ -73,7 +75,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    shoulder_1,
+    core_1,
 };
 
 export const workData = [
@@ -107,9 +111,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Shoulders', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Legs', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Core', description: 'Built more than 5 projects' }
+    { icon: assets.shoulder_1, iconDark: assets.code_icon_dark, title: 'Shoulders', description: 'Biceps, Triceps, Arm, Wrist' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Legs', description: 'Calves, Knee, Shin, Heel, Feet' },
+    { icon: assets.core_1, iconDark: assets.project_icon_dark, title: 'Core', description: 'Abdomen, Back, Chest, Abs' }
 ];
 
 export const toolsData = [
