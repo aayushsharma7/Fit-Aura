@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 '>
         <div>
-            <Image src={assets.profile_img} alt='' className=' rounded-full w-37 hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-xl'/>
+            <Image src={assets.profile_img} alt='' className=' rounded-full w-34 hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-xl'/>
         </div>
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
                 Transforming Lives</h3>
