@@ -11,7 +11,7 @@ const Header = () => {
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
                 Transforming Lives</h3>
     <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>
-        fitness app built to uplift you daily routine.</h1>
+        fitness app built to uplift your daily routine.</h1>
         <p className='max-w-2xl mx-auto font-ovo'>
         Welcome to your new fitness companion — a powerful app designed to seamlessly integrate into your daily life, helping you stay consistent, energized, and inspired every step of the way.
         </p>

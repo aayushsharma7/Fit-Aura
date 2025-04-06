@@ -1,4 +1,4 @@
-import { assets, infoList } from '@/assets/assets'
+import { assets, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -13,7 +13,7 @@ const Exercises = () => {
         </div> 
         <div className='flex-1'>
           <p className='-mb-11 max-w-2xl font-ovo -translate-y-20'>
-          Target what matters most. Whether you're building strength in your shoulders, powering up your legs, or tightening your core — we've got curated exercises to match your goals. Select a focus area and start sculpting a stronger, healthier you.Each category is designed with purpose from mobility and endurance to raw strength and tone. No matter your fitness level, you'll find routines that challenge you, motivate you, and grow with you. So take a deep breath, choose your zone, and let the transformation begin one rep at a time.
+          Target what matters most. Whether you're building strength in your shoulders, powering up your legs, or tightening your core — we've got curated exercises to match your goals. Select a focus area and start sculpting a stronger, healthier you.
 
           </p>
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
@@ -22,8 +22,18 @@ const Exercises = () => {
               key={index} >
               <Image src={icon} alt={title} className='w-7 mt-3 translate-x-16'/>
               <h3 className='my-4 font-semibold text-gray-700 text-center'>{title} </h3>
-              <p className='text-gray-600 text-sm text-center'>{description}</p>
+              <p className='text-gray-600 text-sm text-center'>{description}</p> 
               </li>
+            ))}
+          </ul>
+          <h4 className='my-6 text-gray-700 font-ovo'>Tools I use</h4>
+          <ul className='flex items-center gap-3 sm:gap-5'>
+            {toolsData.map((tool,index)=>(
+              <li className='flex items-center justify-center w-12 sm:w-14 aspect-square  border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-red-500 hover:shadow-lg' 
+              key={index}>
+                <Image src={tool} alt='' className='w-5 sm:w-7'/>
+              </li>
+
             ))}
           </ul>
           
