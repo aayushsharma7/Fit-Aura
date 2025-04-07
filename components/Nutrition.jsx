@@ -4,7 +4,7 @@ import React from 'react'
 
 const Nutrition = () => {
   return (
-    <div id='nutrition' className='w-full px-[12%] py-10 scroll-mt-20'>
+    <div id='nutrition' className='w-full px-[12%] py-10 scroll-mt-15'>
         <h4 className='text-center mb-2 text-lg font-ovo'>
             My Portfolio</h4>
         <h2 className='text-center text-5xl font-ovo'>

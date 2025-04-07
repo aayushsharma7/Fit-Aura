@@ -104,13 +104,16 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Track your calories', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [
+    { icon: assets.shoulder_1, iconDark: assets.code_icon_dark, title: 'Chest', description: 'Biceps, Triceps, Arm, Wrist' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Back', description: 'Calves, Knee, Shin, Heel, Feet' },
+    { icon: assets.core_1, iconDark: assets.project_icon_dark, title: 'Arms', description: 'Abdomen, Back, Chest, Abs' },
     { icon: assets.shoulder_1, iconDark: assets.code_icon_dark, title: 'Shoulders', description: 'Biceps, Triceps, Arm, Wrist' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Legs', description: 'Calves, Knee, Shin, Heel, Feet' },
     { icon: assets.core_1, iconDark: assets.project_icon_dark, title: 'Core', description: 'Abdomen, Back, Chest, Abs' }
